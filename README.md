@@ -1,2 +1,2 @@
 # python-practice
-python练习 c++例子
+python练习 c++SFML例子
