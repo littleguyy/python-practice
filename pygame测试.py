@@ -14,7 +14,7 @@ pygame.init()
 pygame.display.set_caption('游戏测试')
 时钟=pygame.time.Clock()
 
-图=pygame.image.load('i:/images.jpg')
+图=pygame.image.load('images.jpg')
 
 def 图位置(x,y):
     游戏分辨率.blit(图,(x,y))
@@ -29,7 +29,7 @@ while not 崩:
     for 事件 in pygame.event.get():
         if 事件.type == pygame.QUIT:
             崩=True
-        # print(事件)
+        print(事件)
         
         
     游戏分辨率.fill(白)
